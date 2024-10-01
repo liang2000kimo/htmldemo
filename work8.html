@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>
+表格設計基礎
+</title>
+<style type="text/css">
+  div{
+  font-family: 微軟正黑體;
+  font-size: 90px;
+  color: blueviolet;
+  text-align: center;
+} 
+  body{
+  background-image:url('bg6.gif'); 
+}
+  table {
+  margin-left:auto; 
+  margin-right:auto;
+  font-family: 標楷體;
+  font-size: 38px;
+  border-style: solid;
+  border-color: red;
+  color: blue;
+  text-align: center;
+  width: 960px;
+  height: 600px;
+}
+  td{
+  border-color: darkorange;
+  border-style: ridge;
+  border:1;
+}
+  img {
+    width: 200;
+    height: 180;
+}
+  .blink {
+    animation-duration: 2s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+  @keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class='blink'>我最喜歡的卡通人物</div>
+<br>
+<p>
+<table>
+<tr><td><img src='f1.jpg'><br>小丸子<td><img src='f2.jpg'><br>蠟筆小新<td><img src='f3.jpg'><br>凱蒂貓
+<tr><td><img src='f4.jpg'><br>派大星<td><img src='f5.png'><br>多啦a夢<td><img src='f6.jpg'><br>飛天小女警
+<tr><td><img src='f7.jpg'><br>海綿寶寶<td><img src='f8.png'><br>兩津勘吉<td><img src='f9.jpg'><br>魯夫
+</table>
+</body>
+</html>
